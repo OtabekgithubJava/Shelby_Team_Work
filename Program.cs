@@ -16,7 +16,7 @@ builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddRouting(options => options.LowercaseUrls = true);
 builder.Services.AddControllers();
 
-builder.Services.AddEndpointsApiExplorer(); // linked to Swagger;
+builder.Services.AddEndpointsApiExplorer(); 
 builder.Services.AddSwaggerGen();
 
 app.UseSwagger();
