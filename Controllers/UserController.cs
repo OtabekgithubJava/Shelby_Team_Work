@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace WebApplication2.Controllers;
 
-// controller - business logikasi yaqin bo'lgan action larni birlashtiradi
+
 [ApiController]
 [Route("api/[controller]")]
 public class UserController : ControllerBase
